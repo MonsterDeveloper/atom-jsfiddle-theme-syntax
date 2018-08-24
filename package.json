@@ -1,0 +1,18 @@
+{
+  "name": "jsfiddle-theme-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Atom syntax theme inspired by JSFiddle Editor.",
+  "author": "Andrew Developer",
+  "keywords": [
+    "syntax",
+    "theme",
+    "jsfiddle",
+    "js fiddle"
+  ],
+  "repository": "https://github.com/MonsterDeveloper/atom-jsfiddle-theme-syntax",
+  "license": "Apache License 2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

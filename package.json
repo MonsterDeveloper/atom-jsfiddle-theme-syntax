@@ -1,7 +1,7 @@
 {
   "name": "jsfiddle-theme-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom syntax theme inspired by JSFiddle Editor.",
   "author": "Andrew Developer",
   "keywords": [

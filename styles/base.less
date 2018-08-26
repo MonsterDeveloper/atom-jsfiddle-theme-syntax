@@ -68,6 +68,14 @@ atom-text-editor {
 
   &.syntax--control {
     color: @purple;
+
+    &.syntax--at-rule {
+      color: @light-orange;
+
+      .syntax--punctuation.syntax--definition.syntax--keyword {
+        color: inherit;
+      }
+    }
   }
 
   &.syntax--operator {
@@ -77,7 +85,8 @@ atom-text-editor {
       color: @syntax-text-color;
     }
 
-    &.syntax--css {
+    &.syntax--css,
+    &.syntax--scss {
       color: @syntax-text-color;
     }
   }
@@ -267,6 +276,19 @@ atom-text-editor {
 
   &.syntax--other.syntax--attribute-name {
     color: @light-orange;
+
+    &.syntax--css,
+    &.syntax--scss {
+      color: @red;
+
+      &.syntax--class {
+        color: @light-orange;
+      }
+    }
+  }
+
+  &.syntax--other.syntax--keyframe-offset {
+    color: @red;
   }
 }
 

@@ -9,6 +9,11 @@ atom-text-editor {
   //   "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   background-color: @syntax-background-color;
   color: @syntax-text-color;
+  -webkit-font-smoothing: antialiased;
+
+  .line.cursor-line {
+    background-color: hsla(0, 0%, 100%, 0.027);
+  }
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
@@ -50,6 +55,7 @@ atom-text-editor {
 
   .cursor {
     color: @syntax-cursor-color;
+    border-left-width: 2px;
   }
 
   .selection .region {

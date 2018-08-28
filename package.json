@@ -8,7 +8,8 @@
     "syntax",
     "theme",
     "jsfiddle",
-    "js fiddle"
+    "js fiddle",
+    "dark"
   ],
   "repository": "https://github.com/MonsterDeveloper/atom-jsfiddle-theme-syntax",
   "license": "Apache License 2.0",
